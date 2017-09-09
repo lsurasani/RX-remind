@@ -3,3 +3,22 @@
 	font-size: 15px;
 	margin: 5px;
 }
+
+.avatarimage {
+	width: 55px;
+}
+
+.centertext {
+	text-align: center;
+}
+
+.centerimage{
+	margin-right: auto;
+	margin-left: auto;
+	display: block !important;
+}
+
+.user {
+	width: 75px;
+	height: auto;
+}
