@@ -6,22 +6,17 @@
 	<meta charset = "UTF-8" />
 	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"</script>
-<script src="semantic/semantic.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"</script>
+	<script src="semantic/semantic.min.js"></script>
+	<script src="semantic/components/accordion.min.js"></script>
+	<script src="semantic/components/dimmer.min.js"></script>
+	<script src="semantic/components/transition.min.js"></script>
+	<script src="semantic/components/modal.min.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
-	<div class="container">
-		<h1>3am</h1>
-		<p>
-			This is what happens at 3am.<br>
-			Note that her head is horizontal. <br> 
-		<i class="big phone icon"></i> <br>
-		</p>
-		<img src="balloonHead.png">
-	</div>
 
-	<!-- <div class="container2"> -->
-		<div class="ui cabinet modal">
+	<div class="ui cabinet modal">
 		  	<i class="close icon"></i>
 		  	<div class="header">
 		    Add a new medication to your 
@@ -161,9 +156,43 @@
 			    </div>
 			</div>
 		</div>
-	<!-- </div> -->
-	<!--test test test test -->
 
+	<div class = "ui inverted menu navbar">
+		<a class="logo menuitem" href="">RX Remind</a>
+		<div class = "right menu">
+			<a class="settings menuitem">Settings</a>
+		</div>
+	</div>
+	<div class="ui visible sidebar vertical menu right floated" style="position:inherit;">
+		<div class="content">
+			<h2>Patient Name</h2>
+		</div>
+		<div class="ui accordion">
+			<div class="title">
+				<i class="dropdown icon"></i>
+				Medication 1
+			</div>
+			<div class="content">
+				<p>I like this medication best.</p>
+			</div>
+		</div>
 
+		<button class="ui bottom labeled icon button open_modal">
+  			<i class="plus icon"></i>
+  			Add a medication
+		</button>
+
+	</div>
+	<a class="ui centered raised link teal user card" href="http://www.@lekha.com">
+  		<div class="content">
+    		<div class="header centertext">User Name</div>
+    		<div class="meta"></div>
+  		</div>
+  		<div class="extra content">
+    		<div class="centered author">
+      			<img class="ui avatarimage centerimage" src="images/lekha.jpg">
+    		</div>
+  		</div>
+	</a>
 </body>
 </html>

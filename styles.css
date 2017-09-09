@@ -37,5 +37,10 @@
 
 .cabinet {
 	top: 10% !important;
-	display: block !important;
+	/*display: block !important;*/
+}
+
+.bottomRight {
+	position: absolute;
+	bottom: 0;
 }
