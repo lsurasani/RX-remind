@@ -11,5 +11,9 @@ $(document).ready(function() {
   	$(".open_modal").click(function(e){
   		$(".modal").modal("show");
   	})
-
+	
+	$(".user").click(function(e){
+		var username = $(".user > .content > .centertext").text();
+		$("#patient_name").text(username);
+	});
 });
