@@ -34,3 +34,8 @@
 .content {
 	padding-left: 5px;
 }
+
+.cabinet {
+	top: 10% !important;
+	display: block !important;
+}
