@@ -7,5 +7,9 @@ $(document).ready(function() {
       		trigger: '.title .icon'
     	}
   	});
-
+	
+	$(".user").click(function(e){
+		var username = $(".user > .content > .centertext").text();
+		$("#patient_name").text(username);
+	});
 });
