@@ -4,12 +4,69 @@
 	<!-- basic.html -->
 	<title>basic.html</title>
 	<meta charset = "UTF-8" />
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"</script>
+<script src="semantic/semantic.min.js"></script>
 </head>
 <body>
-	<h1>Level One Headline</h1>
-	<p>
-		This is a paragraph.<br>
-		Note that the text is automatically wrapped.
-	</p>
+	<div class="container">
+		<h1>3am</h1>
+		<p>
+			This is what happens at 3am.<br>
+			Note that her head is horizontal. <br> 
+		<i class="big phone icon"></i> <br>
+		</p>
+		<img src="balloonHead.png">
+	</div>
+
+	<div class="container2">
+				<div class="ui modal">
+		  <i class="close icon"></i>
+		  <div class="header">
+		    Add a new medication to your <a href="https://www.website.com" target="blank">cabinet</a>.
+		  </div>
+		  <div class="image content">
+		    <div class="ui medium image">
+		      <img src="lekha.png">
+		    </div>
+		    <div class="description">
+		      <div class="ui header">Please enter the following information about your new prescription:</div><br>
+		      <p>Please enter the following information about your new prescription:</p>
+		      	<div class="ui input">
+  					<p>Medication Name:   </p> <input type="text" placeholder="Medication Name">
+				</div><br><br>
+				<div class="ui input">
+  					<p>What is the medication for? </p><input type="text" placeholder="Use">
+				</div>
+				<p>How often is the medication taken?
+					<select class="ui dropdown">
+					  <option value=""></option>
+					  <option value="4">Three times a Day</option>
+					  <option value="1">Twice a Day</option>
+					  <option value="0">Once a Day</option>
+					  <option value="2">Once a Week</option>
+					  <option value="3">Once a Month</option>
+					</select>
+				</p>
+
+		      <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">grava0tar</a> image associated with your registered e-mail address.</p>
+		      <p>Is it okay to use this photo?</p>
+		    </div>
+		  </div>
+		  <div class="actions">
+		    <div class="ui black deny button">
+		      Nope
+		    </div>
+		    <div class="ui positive right labeled icon button">
+		      Yep, that's me
+		      <i class="checkmark icon"></i>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+
+
 </body>
 </html>
