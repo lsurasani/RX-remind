@@ -4,12 +4,166 @@
 	<!-- basic.html -->
 	<title>basic.html</title>
 	<meta charset = "UTF-8" />
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"</script>
+<script src="semantic/semantic.min.js"></script>
 </head>
 <body>
-	<h1>Level One Headline</h1>
-	<p>
-		This is a paragraph.<br>
-		Note that the text is automatically wrapped.
-	</p>
+	<div class="container">
+		<h1>3am</h1>
+		<p>
+			This is what happens at 3am.<br>
+			Note that her head is horizontal. <br> 
+		<i class="big phone icon"></i> <br>
+		</p>
+		<img src="balloonHead.png">
+	</div>
+
+	<!-- <div class="container2"> -->
+		<div class="ui cabinet modal">
+		  	<i class="close icon"></i>
+		  	<div class="header">
+		    Add a new medication to your 
+		    	<a href="https://www.website.com" target="blank">cabinet</a>.
+		  	</div>
+		  	<div class="scrolling content">
+		  	<div class="image content">
+		    	<div class="ui medium image">
+		      		<img src="lekha.png">
+		    	</div>
+			    <div class="description">
+			      	<div class="ui header">Please enter the following information about your new prescription:
+			      	</div>
+			      	<div class="ui input">
+	  					<p>Medication Name:    
+	  					<input type="text" placeholder="Medication Name">
+	  				</p>
+					</div>
+					<br><br>
+					<div class="ui input">
+	  					<p>What is the medication for? <input type="text" placeholder="Use"></p>
+					</div><br><br>
+					<div class="ui form">
+						<div class = "inline fields">
+							<p>On which days of the week do you take this medication?
+							</p>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type ="checkbox">
+									<label>Mon
+									</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type ="checkbox">
+									<label>Tues
+									</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type ="checkbox">
+									<label>Wed
+									</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type ="checkbox">
+									<label>Thurs
+									</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type ="checkbox">
+									<label>Fri
+									</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type ="checkbox">
+									<label>Sat
+									</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type ="checkbox">
+									<label>Sun
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p>What is the doseage interval?
+						<select class="ui dropdown">
+						  	<option value=""></option>
+						  	<option value="4">Every 6 Hours</option>
+						  	<option value="1">Every 8 Hours</option>
+						  	<option value="0">Every 12 Hours</option>
+						  	<option value="2">Once a Day</option>
+						</select>
+						<br><br>
+						What is the duration of this prescription?
+						<select class="ui dropdown">
+						  	<option value=""></option>
+						  	<option value="4">1</option>
+						  	<option value="1">2</option>
+						  	<option value="0">3</option>
+						  	<option value="2">4</option>
+						  	<option value="2">5</option>
+						  	<option value="2">6</option>
+						  	<option value="2">7</option>
+						  	<option value="2">8</option>
+						  	<option value="2">9</option>
+						  	<option value="2">10</option>
+						  	<option value="2">11</option>
+						  	<option value="2">12</option>
+						</select>    
+						<select class="ui dropdown">
+						  	<option value=""></option>
+						  	<option value="4">Days</option>
+						  	<option value="1">Weeks</option>
+						  	<option value="0">Months</option>
+						  	<option value="2">Years</option>
+						</select><br><br>
+						How would you like to be reminded?
+						<div class="ui checkbox">
+						  	<input type="checkbox" name="example">
+						  	<label>Pebble Notification</label>
+						</div><br>
+						<div class="ui checkbox">
+						  	<input type="checkbox" name="example">
+						  	<label>Text</label>
+						</div>
+						<br>
+						<div class="ui checkbox">
+						  	<input type="checkbox" name="example">
+						  	<label>Fax</label>
+						</div>
+					</p>
+			      	<p>Once you click add, this medication will be added to your cabinet and reminders will be in effect immediately.
+			      	</p>
+		    	</div>
+			</div>
+		</div>
+			<div class="actions">
+				<div class="ui black deny button">
+			      Cancel
+			    </div>
+			    <div class="ui positive right labeled icon button">
+			      Add this prescription to my cabinet
+			    <i class="checkmark icon"></i>
+			    </div>
+			</div>
+		</div>
+	<!-- </div> -->
+
+
+
 </body>
 </html>
